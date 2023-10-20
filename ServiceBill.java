@@ -1,5 +1,3 @@
-package performanceTask;
-
 import java.util.Scanner;
 
 public class ServiceBill {
