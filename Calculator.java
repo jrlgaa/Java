@@ -1,5 +1,3 @@
-package Project;
-
 import java.util.Scanner;
 
 public class Calculator {
