@@ -38,8 +38,7 @@ public class Calculator {
                     System.out.println("Invalid input");
                     return;
             }
-            System.out.format(
-                    "\nResult: %.2f %s %.2f = %.2f%n", number1, Operator, number2, result);
+            System.out.format("\nResult: %.2f %s %.2f = %.2f%n", number1, Operator, number2, result);
             System.out.print("----------------------------------------\n\n");
 
             System.out.println("Select Menu");
