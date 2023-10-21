@@ -50,6 +50,7 @@ public class Calculator {
             if (menu == 1) {
                 continue;
             } else if (menu == 2) {
+                System.out.print("Thank You For Using!");
                 System.exit(0);
             } else {
                 System.out.println("Invalid input");
