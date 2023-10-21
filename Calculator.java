@@ -12,12 +12,12 @@ public class Calculator {
             System.out.print("Enter second number: ");
             double number2 = input.nextDouble();
 
-            System.out.print("\nSelect Operator");
-            Operator("\n + (Add)");
-            Operator("\n - (Subtract)");
-            Operator("\n * (Multiply)");
-            Operator("\n / (Divide)\n");
-            Operator("\nInput here: ");
+            System.out.println("\nSelect Operator");
+            Operator(" + (Add)");
+            Operator(" - (Subtract)");
+            Operator(" * (Multiply)");
+            Operator(" / (Divide)");
+            System.out.print("Input here: ");
             char Operator = input.next().charAt(0);
 
             double result;
@@ -60,6 +60,6 @@ public class Calculator {
     }
 
     static void Operator(String word) {
-        System.out.print(word);
+        System.out.println(word);
     }
 }
