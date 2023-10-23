@@ -33,6 +33,10 @@ public class Calculator {
                     break;
                 case '/':
                     result = number1 / number2;
+                      if (number2 == 0) {
+                    	System.out.println("Invalid Division");
+                    	return;
+                      }
                     break;
                 default:
                     System.out.println("Invalid input");
