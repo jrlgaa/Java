@@ -34,7 +34,7 @@ public class Calculator {
                 case '/':
                     result = number1 / number2;
                       if (number2 == 0) {
-                    	System.out.println("Invalid Division");
+                    	System.out.println("Can't divide by zero");
                     	return;
                       }
                     break;
