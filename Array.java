@@ -56,7 +56,7 @@ public class Array {
             result = num1 / num2;
           } else {
             System.out.println("Cannot divide by zero.");
-            return;
+            continue;
           }
           break;
         default:
