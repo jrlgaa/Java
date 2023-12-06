@@ -11,7 +11,7 @@ public class Loops {
     while (Continue) {
       int min = 1;
       int max = 100;
-      int numOfAttempts = 1;
+      int numOfAttempts = 0;
 
       int randomNumber = randomNum.nextInt(max - min + 1) + min;
 
