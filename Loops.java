@@ -31,8 +31,7 @@ public class Loops {
         } else if (userNum > randomNumber) {
           System.out.println("Too High");
         } else {
-          System.out.println(
-              "Congratulations! You guessed the number in " + numOfAttempts + " attempts");
+          System.out.println("Congratulations! You guessed the number in " + numOfAttempts + " attempts");
 
           System.out.print("Do you want to play again? Yes or No?: ");
           input.nextLine();
