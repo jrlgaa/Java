@@ -7,7 +7,7 @@ public class Loops {
     Random randomNum = new Random();
 
     boolean Continue = true;
-
+    System.out.println("Welcome to guess the number game");
     while (Continue) {
       int min = 1;
       int max = 100;
