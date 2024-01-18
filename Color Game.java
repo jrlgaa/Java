@@ -53,7 +53,7 @@ public class Main {
 		}
 	}
 
-	private static boolean isValidColor(String color) {
+	static boolean isValidColor(String color) {
 		return color.equals("red") || color.equals("white") || color.equals("green") ||
 			   color.equals("blue") || color.equals("yellow") || color.equals("pink");
 	}
