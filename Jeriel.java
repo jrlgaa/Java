@@ -1,5 +1,3 @@
-package jeriel;
-
 public class Jeriel {
     
     public int bowValue;
